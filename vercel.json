@@ -1,9 +1,14 @@
 {
-    "builds": [{
-        "src": "bbl/wsgi.py",
-        "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb", "runtime": "python3.12.2" }
-    }],
+    "builds": [
+        {
+            "src": "bbl/wsgi.py",
+            "use": "@vercel/python",
+            "config": {
+                "maxLambdaSize": "15mb",
+                "runtime": "python3.12"
+            }
+        }
+    ],
     "routes": [
         {
             "src": "/(.*)",
