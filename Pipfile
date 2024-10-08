@@ -10,6 +10,7 @@ django-phonenumber-field = {extras = ["phonenumbers"], version = "*"}
 pillow = "*"
 ipython = "*"
 dj-database-url = "*"
+whitenoise = "*"
 
 [dev-packages]
 
