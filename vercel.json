@@ -14,5 +14,9 @@
             "src": "/(.*)",
             "dest": "bbl/wsgi.py"
         }
-    ]
+    ], 
+    "env": {
+            "DATABASE_URL": "postgresql://postgres:wysKBOtrqYNqYsTtQTIbDoRpIKOalDEc@autorack.proxy.rlwy.net:49736/railway",
+            "DJANGO_SETTINGS_MODULE": "bbl.settings"
+    }
 }

@@ -83,7 +83,6 @@ WSGI_APPLICATION = 'bbl.wsgi.application'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databasesD
 
 DATABASES = {
-
     "default":
     dj_database_url.config(default=DATABASE_URL, conn_max_age = 1800),
 }
